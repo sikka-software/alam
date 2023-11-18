@@ -1,13 +1,19 @@
 {
-  "name": "tsup-react-package-starter",
-  "description": "",
-  "version": "0.0.0",
-  "author": "",
-  "license": "",
-  "keywords": [],
+  "name": "@sikka/alam",
+  "description": "SVG country flags for React in typescript",
+  "version": "0.0.1",
+  "author": "Sikka Software",
+  "license": "MIT",
+  "keywords": [
+    "flags",
+    "svg",
+    "react",
+    "country",
+    "typescript"
+  ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/sikka-software/alam/"
   },
   "scripts": {
     "dev": "concurrently \"yarn build --watch\" \"yarn storybook\" \"yarn test\" ",
