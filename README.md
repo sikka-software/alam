@@ -1,3 +1,4 @@
+![alam-readme-1](https://github.com/sikka-software/alam/assets/46135573/707377e6-314b-47ba-8ed8-1a9b63c908f3)
 
 # ALAM
 
