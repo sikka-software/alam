@@ -66,11 +66,6 @@
     ],
     "*": "prettier --write"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/@ryansonshine/cz-conventional-changelog"
-    }
-  },
   "release-it": {
     "git": {
       "commitMessage": "chore(release): v${version}"
