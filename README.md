@@ -1,4 +1,6 @@
-# SVG Country Flags for React (Package Name)
+# ALAM
+
+SVG Country Flags for React (Package Name)
 
 ## Description
 
@@ -16,7 +18,7 @@ This NPM package provides a collection of SVG country flags, optimized for React
 To install the package, run the following command in your project directory:
 
 ```bash
-npm install [your-package-name] --save
+npm install @sikka/alam --save
 ```
 
 ## Usage
@@ -24,11 +26,11 @@ npm install [your-package-name] --save
 Import the flag component in your React application:
 
 ```jsx
-import { CountryFlag } from '[your-package-name]';
+import { SA } from '@sikka/alam';
 
 const MyComponent = () => (
   <div>
-    <CountryFlag countryCode="US" width="100" height="50" />
+    <SA />
   </div>
 );
 
@@ -59,14 +61,6 @@ We welcome contributions to this package. If you have a suggestion or fix:
 
 Distributed under the MIT License. See `LICENSE` file for more information.
 
-## Author
-
-- Your Name - [@YourGitHub](https://github.com/YourGitHub)
-
 ## Acknowledgments
 
-- List any other contributors or sources of inspiration.
-
----
-
-Feel free to modify this template to suit your specific package details and personal style. Remember to replace placeholders (like `[your-package-name]`) with actual values relevant to your package.
+- The SVG files of the flags were taken from [yammadev/flag-icons](https://github.com/yammadev/flag-icons).
