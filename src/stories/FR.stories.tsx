@@ -2,19 +2,19 @@ import React from 'react';
 import { Meta, StoryObj } from '@storybook/react';
 // import { Story } from '@storybook/blocks';
 
-import { USA } from '../flags';
+import { FR } from '../flags';
 
 export default {
-  title: 'USA',
-  component: USA,
+  title: 'FR',
+  component: FR,
   argTypes: {},
-} as Meta<typeof USA>;
-type Story = StoryObj<typeof USA>;
+} as Meta<typeof FR>;
+type Story = StoryObj<typeof FR>;
 
 export const Default: Story = {
   render: () => (
     <div>
-      <USA />
+      <FR />
     </div>
   ),
 };

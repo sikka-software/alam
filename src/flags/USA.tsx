@@ -1,10 +1,10 @@
 import React from 'react';
 
-type TUSAFlag = {
+type USAFlagProps = {
   className?: string;
 };
 
-export const USA: React.FC<TUSAFlag> = (props) => (
+export const USA: React.FC<USAFlagProps> = (props) => (
   <div>
     <svg
       width="21px"

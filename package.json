@@ -1,7 +1,7 @@
 {
   "name": "@sikka/alam",
   "description": "SVG country flags for React in typescript",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Sikka Software",
   "license": "MIT",
   "keywords": [

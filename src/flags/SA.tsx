@@ -1,10 +1,10 @@
 import React from 'react';
 
-type TSAFlag = {
+type SAFlagProps = {
   className?: string;
 };
 
-export const SA: React.FC<TSAFlag> = (props) => (
+export const SA: React.FC<SAFlagProps> = (props) => (
   <div>
     <svg
       width="21px"

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Meta, StoryObj } from '@storybook/react';
 
-import { SA } from '../flags/SA';
+import { SA } from '../flags';
 
 export default {
   title: 'SA',
