@@ -1,3 +1,5 @@
+![alam-readme-1](https://github.com/sikka-software/alam/assets/46135573/26194642-8996-4fc0-8010-b2f2da1a280c)
+
 # ALAM
 
 SVG Country Flags for React (Package Name)
