@@ -23,7 +23,6 @@
     "lint:fix": "yarn lint --fix && prettier --write .",
     "test": "vitest",
     "test:ci": "vitest run --coverage",
-    "prepare": "husky install",
     "commit": "cz",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
