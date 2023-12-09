@@ -24,8 +24,8 @@ export const DE: React.FC<DEFlagProps> = (props) => (
           y2="100%"
           id="linearGradient-1"
         >
-          <stop stop-color="#FFFFFF" offset="0%"></stop>
-          <stop stop-color="#F0F0F0" offset="100%"></stop>
+          <stop stopColor="#FFFFFF" offset="0%" />
+          <stop stopColor="#F0F0F0" offset="100%" />
         </linearGradient>
         <linearGradient
           x1="50%"
@@ -34,8 +34,8 @@ export const DE: React.FC<DEFlagProps> = (props) => (
           y2="100%"
           id="linearGradient-2"
         >
-          <stop stop-color="#262626" offset="0%"></stop>
-          <stop stop-color="#0D0D0D" offset="100%"></stop>
+          <stop stopColor="#262626" offset="0%" />
+          <stop stopColor="#0D0D0D" offset="100%" />
         </linearGradient>
         <linearGradient
           x1="50%"
@@ -44,8 +44,8 @@ export const DE: React.FC<DEFlagProps> = (props) => (
           y2="100%"
           id="linearGradient-3"
         >
-          <stop stop-color="#F01515" offset="0%"></stop>
-          <stop stop-color="#DE0000" offset="100%"></stop>
+          <stop stopColor="#F01515" offset="0%" />
+          <stop stopColor="#DE0000" offset="100%" />
         </linearGradient>
         <linearGradient
           x1="50%"
@@ -54,16 +54,16 @@ export const DE: React.FC<DEFlagProps> = (props) => (
           y2="100%"
           id="linearGradient-4"
         >
-          <stop stop-color="#FFD521" offset="0%"></stop>
-          <stop stop-color="#FFCF00" offset="100%"></stop>
+          <stop stopColor="#FFD521" offset="0%" />
+          <stop stopColor="#FFCF00" offset="100%" />
         </linearGradient>
       </defs>
       <g
         id="Symbols"
         stroke="none"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g id="DE">
           <rect
@@ -73,7 +73,7 @@ export const DE: React.FC<DEFlagProps> = (props) => (
             y="0"
             width="21"
             height="15"
-          ></rect>
+          />
           <rect
             id="Rectangle-2"
             fill="url(#linearGradient-2)"
@@ -81,7 +81,7 @@ export const DE: React.FC<DEFlagProps> = (props) => (
             y="0"
             width="21"
             height="5"
-          ></rect>
+          />
           <rect
             id="Rectangle-2"
             fill="url(#linearGradient-3)"
@@ -89,7 +89,7 @@ export const DE: React.FC<DEFlagProps> = (props) => (
             y="5"
             width="21"
             height="5"
-          ></rect>
+          />
           <rect
             id="Rectangle-2"
             fill="url(#linearGradient-4)"
@@ -97,7 +97,7 @@ export const DE: React.FC<DEFlagProps> = (props) => (
             y="10"
             width="21"
             height="5"
-          ></rect>
+          />
         </g>
       </g>
     </svg>

@@ -24,8 +24,8 @@ export const RU: React.FC<RUFlagProps> = (props) => (
           y2="100%"
           id="linearGradient-1"
         >
-          <stop stop-color="#FFFFFF" offset="0%"></stop>
-          <stop stop-color="#F0F0F0" offset="100%"></stop>
+          <stop stopColor="#FFFFFF" offset="0%" />
+          <stop stopColor="#F0F0F0" offset="100%" />
         </linearGradient>
         <linearGradient
           x1="50%"
@@ -34,8 +34,8 @@ export const RU: React.FC<RUFlagProps> = (props) => (
           y2="100%"
           id="linearGradient-2"
         >
-          <stop stop-color="#0C47B7" offset="0%"></stop>
-          <stop stop-color="#073DA4" offset="100%"></stop>
+          <stop stopColor="#0C47B7" offset="0%" />
+          <stop stopColor="#073DA4" offset="100%" />
         </linearGradient>
         <linearGradient
           x1="50%"
@@ -44,16 +44,16 @@ export const RU: React.FC<RUFlagProps> = (props) => (
           y2="100%"
           id="linearGradient-3"
         >
-          <stop stop-color="#E53B35" offset="0%"></stop>
-          <stop stop-color="#D32E28" offset="100%"></stop>
+          <stop stopColor="#E53B35" offset="0%" />
+          <stop stopColor="#D32E28" offset="100%" />
         </linearGradient>
       </defs>
       <g
         id="Symbols"
         stroke="none"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g id="RU">
           <rect
@@ -63,7 +63,7 @@ export const RU: React.FC<RUFlagProps> = (props) => (
             y="0"
             width="21"
             height="15"
-          ></rect>
+          />
           <rect
             id="Rectangle-2"
             fill="url(#linearGradient-2)"
@@ -71,7 +71,7 @@ export const RU: React.FC<RUFlagProps> = (props) => (
             y="5"
             width="21"
             height="5"
-          ></rect>
+          />
           <rect
             id="Rectangle-2"
             fill="url(#linearGradient-3)"
@@ -79,7 +79,7 @@ export const RU: React.FC<RUFlagProps> = (props) => (
             y="10"
             width="21"
             height="5"
-          ></rect>
+          />
           <rect
             id="Rectangle-2"
             fill="url(#linearGradient-1)"
@@ -87,7 +87,7 @@ export const RU: React.FC<RUFlagProps> = (props) => (
             y="0"
             width="21"
             height="5"
-          ></rect>
+          />
         </g>
       </g>
     </svg>
