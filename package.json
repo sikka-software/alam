@@ -1,8 +1,12 @@
 {
   "name": "@sikka/alam",
-  "description": "SVG country flags for React in typescript",
   "version": "0.0.4",
-  "author": "Sikka Software",
+  "description": "SVG country flags for React in typescript",
+  "author": {
+    "name": "Sikka Software",
+    "email": "contact@sikka.io",
+    "url": "http://sikka.io"
+  },
   "license": "MIT",
   "keywords": [
     "flags",
@@ -13,7 +17,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sikka-software/alam/"
+    "url": "git+https://github.com/sikka-software/alam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sikka-software/alam/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "dev": "concurrently \"yarn build --watch\" \"yarn storybook\" \"yarn test\" ",
