@@ -1,12 +1,13 @@
 name: Main
 
+env:
+  NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
 on: [push]
 
 jobs:
   run-ci:
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
     name: Run Type Check & Linters
     runs-on: ubuntu-latest
     timeout-minutes: 10
