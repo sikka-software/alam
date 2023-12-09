@@ -41,5 +41,5 @@ jobs:
       - name: Build package
         run: yarn build
 
-      - name: Check commits messages
-        uses: wagoid/commitlint-github-action@v5
+      - name: Publish to NPM main tag
+        run: npm publish
