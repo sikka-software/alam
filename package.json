@@ -106,7 +106,7 @@
     "@storybook/react-webpack5": "^7.6.4",
     "@storybook/testing-library": "0.2.2",
     "@testing-library/jest-dom": "^6.1.5",
-    "@testing-library/react": "^14.1.2",
+    "@testing-library/react": "^16.0.0",
     "@types/node": "^20.10.4",
     "@types/react": "^18.2.42",
     "@types/react-dom": "^18.2.17",
