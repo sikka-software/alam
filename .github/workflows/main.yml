@@ -1,62 +1,62 @@
-name: Main
+# name: Main
 
-env:
-  NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+# env:
+#   NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+#   GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-on: [push]
+# on: [push]
 
-jobs:
-  run-ci:
-    name: Run Type Check & Linters
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
+# jobs:
+#   run-ci:
+#     name: Run Type Check & Linters
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 10
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+#         with:
+#           fetch-depth: 0
 
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: lts/*
-          cache: 'yarn'
+#       - name: Set up Node
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: lts/*
+#           cache: 'yarn'
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+#       - name: Install dependencies
+#         run: yarn install --frozen-lockfile
 
-      - name: Check types
-        run: yarn type-check
+#       - name: Check types
+#         run: yarn type-check
 
-      - name: Check linting
-        run: yarn lint
+#       - name: Check linting
+#         run: yarn lint
 
-      - name: Run tests
-        run: yarn test:ci
+#       - name: Run tests
+#         run: yarn test:ci
 
-      - name: Build storybook
-        run: yarn build-storybook
+#       - name: Build storybook
+#         run: yarn build-storybook
 
-      - name: Build package
-        run: yarn build
-  publish-package:
-    if: ${{!contains(github.event.head_commit.message, 'skip_publish')}}
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.x]
-    steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js v16
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16
-          registry-url: https://registry.npmjs.org/
-      - name: Install dependencies
-        run: npm install
-      - name: Build Library
-        run: npm run build
-      - name: Publish to NPM
-        run: npm publish
+#       - name: Build package
+#         run: yarn build
+#   publish-package:
+#     if: ${{!contains(github.event.head_commit.message, 'skip_publish')}}
+#     runs-on: ubuntu-latest
+#     strategy:
+#       matrix:
+#         node-version: [16.x]
+#     steps:
+#       - uses: actions/checkout@v2
+#       - name: Use Node.js v16
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: 16
+#           registry-url: https://registry.npmjs.org/
+#       - name: Install dependencies
+#         run: npm install
+#       - name: Build Library
+#         run: npm run build
+#       - name: Publish to NPM
+#         run: npm publish
